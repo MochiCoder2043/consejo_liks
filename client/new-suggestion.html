@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suggestions</title>
+    <link rel="stylesheet" href="css/new-suggestion.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <nav class="navbar">
+      <div class="logo">Liks</div>
+      <div class="menu">
+        <a href="/">home</a>
+        <a href="/projects">projects</a>
+        <a href="/suggestions">suggestions</a>
+        <a href="/contact">contact</a>
+      </div>
+    </nav>
+    <h1>new Suggestion</h1>
+    <ul id="project-list"></ul>
+    <label for="name">Enter your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Eric" />
+
+    <br />
+
+    <label for="title">Enter your Title:</label>
+    <input type="text" id="title" name="title" placeholder="Suggestion" />
+
+    <br />
+
+    <form>
+      <label for="expandable">Type your message:</label><br />
+      <textarea id="expandable" placeholder="Start typing..."></textarea>
+    </form>
+    <button type="submit" id="postForm">Submit</button>
+
+    <!-- Change the class to id -->
+    <script src="src/new-suggestion.js"></script>
+  </body>
+</html>

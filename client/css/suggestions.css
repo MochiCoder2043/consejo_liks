@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c64fa;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add a border below each title */
+.suggestion-title {
+  display: block; /* Makes the link behave like a block element */
+  margin-bottom: 10px; /* Optional: space between the title and the border */
+  border-bottom: 1px solid #ccc; /* Adds a line below the title */
+  padding-bottom: 5px; /* Adds some space between the title and the line */
+  color: green;
+}
+
+/* Optional: Add some margin to the body */
+.suggestion-body {
+  margin-top: 10px; /* Space between the line and body */
+}
+
+#new {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+#new:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
